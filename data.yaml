@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['battery', 'can', 'cardboard_bowl', 'cardboard_box', 'chemical_plastic_bottle', 'chemical_plastic_gallon', 'chemical_spray_can', 'light_bulb', 'paint_bucket', 'plastic_bag', 'plastic_bottle', 'plastic_bottle_cap', 'plastic_box', 'plastic_cultery', 'plastic_cup', 'plastic_cup_lid', 'reuseable_paper', 'scrap_paper', 'scrap_plastic', 'snack_bag', 'stick', 'straw' ,'Beef','Cabbage','Carrot','Chicken','Cucumber','Egg','Eggplant','Leek','Onion','Pork','Potato','Radish','Tomato']
+
+roboflow:
+  workspace: ai-project-i3wje
+  project: waste-detection-vqkjo
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-project-i3wje/waste-detection-vqkjo/dataset/10
