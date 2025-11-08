@@ -9,6 +9,7 @@ A real-time waste detection application using YOLOv8 ONNX model deployed with St
 - Adjustable confidence and NMS thresholds
 - Support for custom ONNX models
 - Easy-to-use web interface
+- Fixed color rendering issue for accurate object visualization
 
 ## 📋 Classes Detected
 
@@ -40,12 +41,13 @@ streamlit run streamlit_yolo_onnx_app.py
 
 ```
 ├── streamlit_yolo_onnx_app.py  # Main Streamlit application
+├── app.py                       # Alternative app version
 ├── best.onnx                    # Trained YOLOv8 ONNX model
+├── best.pt                      # Trained YOLOv8 PyTorch model
 ├── data.yaml                    # Dataset configuration
 ├── requirements.txt             # Python dependencies
-├── train/                       # Training dataset
-├── test/                        # Testing dataset
-└── valid/                       # Validation dataset
+├── packages.txt                 # System packages
+└── runtime.txt                  # Python runtime version
 ```
 
 ## 🎮 Usage
